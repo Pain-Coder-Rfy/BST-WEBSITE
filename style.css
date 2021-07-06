@@ -1,0 +1,128 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.button{
+    padding: 8px 30px;
+}
+.slider-section{
+    background:url(img/mbr-10.jpg) no-repeat center center;
+   
+    padding: 115px 0px !important;
+    position: relative;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+.brand-logo{
+    width: 48px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.app{
+    font-size: 25px;
+    font-weight: 500;
+}
+.custom-header{
+    background:#fff !important;
+    padding: .5rem;
+}
+.nav-item{
+    padding-left: 10px;
+    font-weight: 500;
+}
+.navbar-nav-customize{
+    margin-left: 205px !important;
+}
+.form-customize {
+    width: 371px;
+    height: 70px;
+}
+.silder-caption h2 {
+    font-size: 59px;
+    margin-bottom: 75px;
+    margin-top: 43px;
+}
+.silder-caption h4 {
+    font-size: 31px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+.but-customize {
+    height: 70px;
+    color: white !important;
+    width: 180px;
+    margin-left: 43px;
+    background-color: #5ba533 !important;
+    border: none;
+}
+.zindex{
+    z-index: 5;
+}
+.counter-number-item p{
+    font: inherit;
+    font-size: 21px;
+}
+.about{
+    background:#f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left p {
+    font-size: 25px;
+    line-height: 2.8rem;
+}
+.about-text-left h1{
+    font-size: 2.8rem !important;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px ;
+}
+.right-text-sec{
+    width: 60%;
+    padding-left: 15px;
+}
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -82px;
+}
+.right-text-sec p{
+    color:#767676 ;
+    font-weight: 300;
+}
+.feature-text-item{
+
+}
+.feature-text-item h4 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    font-weight: 400;
+}
+.feature-text-item p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 70px;
+    font-weight: 300;
+    color: gray;
+}
